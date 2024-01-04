@@ -1,8 +1,10 @@
 # Lendo a entrada do exercício
-A,B = map(float, input().split())
+A, B = map(float, input().split())
+
 
 # Seu código vai aqui
 media = (A + B) / 2
+
 
 if media >= 7.0:
 	print("Aprovado")
